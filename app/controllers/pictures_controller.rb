@@ -1,29 +1,56 @@
 class PicturesController < ApplicationController
 
-  # def index
-  # end
+  before_action :set_picture, only: [:show, :edit, :update, :destroy]
 
-  # def new
-  # end
+  def index
+    @pictures = Picture.all
+  end
 
-  # def create
-  # end
+  def new
+    @picture = Picture.new
+  end
 
-  # def edit
-  # end
+  def create
+    picture = Picture.create( picture_params )
+    redirect_to picture
+  end
 
-  # def update
-  # end
+  def edit
+  end
 
-  # def show
-  # end
+  def update
+    if @picture.update( picture_params )
+      @picture.save
+      redirect_to @picture
+    else
+      render 'edit'
+    end
+  end
 
-  # def destroy
-  # end
+  def show
+  end
 
-  # private
+  def destroy
+    @picture.destroy
+    respond_to do |format|
+      format.html { redirect_to pictures_url, notice: 'Picture was successfully destroyed.' }
+      format.json { head :no_content }
+    end
+  end
 
-  # def picture_params
-  #   params.require(:picture).permit(...)
-  # end
+  def delete_image
+    @picture.image = nil
+    @picture.save
+  end
+
+  private
+
+  # Use callbacks to share common setup or constraints between actions.
+  def set_picture
+    @picture = Picture.find(params[:id])
+  end
+
+  def picture_params
+    params.require(:picture).permit(:product_id, :image)
+  end
 end

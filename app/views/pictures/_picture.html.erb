@@ -1,1 +1,28 @@
-_picture.html.erb
+<%= form_for @picture, :html => { :multipart => true } do |form| %>
+  <div class="row-fluid">
+
+    <!-- <div class="span12"> -->
+      <div class="field">
+        <%= form.label "Product ID" %>
+        <%= form.text_field :product_id %>
+      </div>
+
+      <p>
+        <%= form.file_field :image, id: "image_select_button" %>
+        <div class="clear"></div>
+        <% if @picture.image_file_name.nil? %>
+          <%= image_tag 'placeholder.png', id: "image_display" %>
+        <% else %>
+          <%= image_tag @picture.image.url(:medium), id: "image_display" %>
+        <% end %>
+        <!--
+          <a href="/pictures/<%= @picture.id %>/delete_image"><button class="btn">delete Image</button></a>
+        -->
+      </p>
+
+  <!-- </div> -->
+  <hr>
+  <div class="actions">
+    <button type="submit" class="btn">Save</button>
+  </div>
+<% end %>
