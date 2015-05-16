@@ -58,5 +58,6 @@ gem "twitter-bootstrap-rails"
 gem 'paperclip'
 gem "aws-sdk"
 
+gem 'omniauth'
 gem 'devise'
 
