@@ -56,7 +56,7 @@ end
 gem "twitter-bootstrap-rails"
 
 gem 'paperclip'
-gem "aws-sdk"
+gem 'aws-sdk', '< 2.0'
 
 gem 'omniauth'
 gem 'devise'
