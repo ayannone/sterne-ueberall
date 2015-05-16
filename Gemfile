@@ -48,7 +48,10 @@ group :development, :test do
   gem 'pry-rails'
 end
 
-gem 'rails_12factor', group: :production
+group :production do
+  gem 'rails_12factor'
+  gem 'puma'
+end
 
 gem "twitter-bootstrap-rails"
 
@@ -56,3 +59,4 @@ gem 'paperclip'
 gem "aws-sdk"
 
 gem 'devise'
+
