@@ -1,4 +1,4 @@
-class CategoryController < ApplicationController
+class ProductsController < ApplicationController
 
   # def index
   # end
@@ -23,8 +23,8 @@ class CategoryController < ApplicationController
 
   # private
 
-  # def category_params
-  #   params.require(:category).permit(...)
+  # def product_params
+  #   params.require(:product).permit(...)
   # end
 
 end
