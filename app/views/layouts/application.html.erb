@@ -2,18 +2,28 @@
 <html>
 <head>
   <title>Sterne überall</title>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= stylesheet_link_tag    'application', media: 'all' %>
+  <%= javascript_include_tag 'application' %>
   <%= csrf_meta_tags %>
 </head>
 <body>
+
   <div class="container">
 
-      <span class="notice pull-right"><%= notice %></span>
-      <span class="alert pull-right"><%= alert %></span>
+    <%= yield %>
 
-      <%= yield %>
-
+    <div id="footer">
+      <div class="navbar navbar-default navbar-fixed-bottom">
+        <p class="navbar-text pull-left">© 2015, Ina Bartels-Hafner, 040 - 64 22 07 62, ina@sterne-ueberall.de</p>
+        <a href="http://www.sterne-ueberall.de" target="_blank" class="btn btn-primary pull-right">
+        <span class="glyphicon glyphicon-star"></span>Online-Shop</a>
+        <a href="impressum.html" target="_blank" class="pull-right">Impressum</a>
+      </div>
+    </div>
+    <!--
+    <span class="notice pull-right"><%= notice %></span>
+    <span class="alert pull-right"><%= alert %></span>
+    -->
   </div>
 </body>
 </html>

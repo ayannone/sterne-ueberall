@@ -7,21 +7,18 @@
   */
 
   .container {
-    background-color: white;
-    /*padding: 0;*/
-    /*margin: 0;*/
+    /*background-image: url("tileable_wood_texture.png");*/
   }
 
   .jumbotron {
-    height: 400px;
     background-color: lightblue;
-    /*background-color: white;*/
-    margin: 35px 0;
+    /*background-image: url("tileable_wood_texture.png");*/
     padding: 0;
   }
 
   .img-responsive {
     display: inline;
+    padding: 5px;
   }
 
   .products {
@@ -29,5 +26,5 @@
   }
 
   .products .img-responsive {
-    margin-top: 25px;
+    margin: 25px 0;
   }

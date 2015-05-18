@@ -3,5 +3,13 @@ body {
 }
 
 .products {
-  height: 600px;
+  background-image: url("tileable_wood_texture.png");
+}
+
+#space_bottom {
+  height: 120px;
+}
+
+#footer a {
+  margin: 5px;
 }
