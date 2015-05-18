@@ -12,8 +12,7 @@
 
   .jumbotron {
     background-color: lightblue;
-    /*background-image: url("bluewood_bg.jpg");*/
-    /*background-repeat: no-repeat;*/
+    /*background: image-url("bluewood_bg.jpg") no-repeat;*/
     padding: 0;
   }
 

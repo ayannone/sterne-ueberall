@@ -21,7 +21,7 @@ body {
 /***   products area   ***/
 
 .products {
-  background-image: url("tileable_wood_texture.png");
+  background: asset-data-url("tileable_wood_texture.png");
   margin: 75px 0;
   padding: 25px 0;
 }
@@ -54,8 +54,7 @@ body {
   height: 550px;
   margin: 75px 0;
   padding: 25px 0;
-  background-image: url("bricks_bg1.jpg");
-  background-size: no-repeat;
+  background: asset-data-url("bricks_bg1.jpg");
   opacity: 0.7;
 }
 
