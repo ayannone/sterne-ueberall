@@ -23,8 +23,21 @@
 
   .products {
     margin: 75px 0;
+    padding: 25px 0;
+  }
+
+  .products .row {
+    margin: 0;
+    padding: 0;
+  }
+
+  .row div {
+    margin: 0;
+    padding: 0;
   }
 
   .products .img-responsive {
-    margin: 25px 0;
+    width: 100%;
+    padding: 0;
   }
+
