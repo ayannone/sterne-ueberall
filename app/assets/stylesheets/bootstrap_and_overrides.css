@@ -12,7 +12,8 @@
 
   .jumbotron {
     background-color: lightblue;
-    /*background-image: url("tileable_wood_texture.png");*/
+    /*background-image: url("bluewood_bg.jpg");*/
+    /*background-repeat: no-repeat;*/
     padding: 0;
   }
 
@@ -20,24 +21,3 @@
     display: inline;
     padding: 5px;
   }
-
-  .products {
-    margin: 75px 0;
-    padding: 25px 0;
-  }
-
-  .products .row {
-    margin: 0;
-    padding: 0;
-  }
-
-  .row div {
-    margin: 0;
-    padding: 0;
-  }
-
-  .products .img-responsive {
-    width: 100%;
-    padding: 0;
-  }
-
