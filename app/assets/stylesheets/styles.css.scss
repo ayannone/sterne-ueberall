@@ -15,7 +15,8 @@ body {
 }
 
 .info h1 {
-  font-family: 'Gloria Hallelujah', cursive;
+  /*font-family: 'Gloria Hallelujah', cursive;*/
+  font-family: 'Oregano', cursive;
 }
 
 /***   products area   ***/
@@ -46,7 +47,15 @@ body {
 
 .person h1 {
   text-align: center;
+  font-family: 'Oregano', cursive;
+  font-size: 4em;
 }
+
+#person_text {
+  font-family: 'Open+Sans';
+  font-size: 1.2em;
+}
+
 
 /***   deko_ideas area   ***/
 
