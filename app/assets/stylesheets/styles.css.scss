@@ -1,12 +1,13 @@
 html {
-  background-color: lightblue;
+  background-color: #B8E7F7;
 }
 
 body {
-  /*background-color: lightblue;*/
-  max-width: 1000px;
+  /*background-color: #B8E7F7;*/
+  max-width: 960px;
   margin: 0 auto;
 }
+
 
 /***   header area   ***/
 
@@ -29,19 +30,32 @@ body {
   font-family: 'Oregano', cursive;
 }
 
+
 /***   menue   ***/
 
- ul li {
+#menu hr {
+  margin: 0;
+}
+
+ul li {
   display: inline-block;
   width: 50px;
 }
 
+
 /***   promotion area   ***/
 
+.slider {
+  margin: 0 15px;
+  padding: 25px 0;
+}
+
 #my-carousel {
-  max-width: 600px;
+  width: 600px;
+  /*width: 930px;*/
   /*height: 400px;*/
 }
+
 
 /***   products area   ***/
 
@@ -67,6 +81,7 @@ body {
   padding: 0;
 }
 
+
 /***   person area   ***/
 
 .person h1 {
@@ -77,7 +92,7 @@ body {
 
 #person_text {
   font-family: 'Open+Sans';
-  font-size: 1.2em;
+  font-size: 1.1em;
 }
 
 
@@ -105,6 +120,7 @@ body {
 #footer a {
   margin: 5px;
 }
+
 
 /***   Media queries   ***/
 
