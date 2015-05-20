@@ -51,7 +51,7 @@ ul li {
 }
 
 #my-carousel {
-  width: 600px;
+  max-width: 600px;
   /*width: 930px;*/
   /*height: 400px;*/
 }
@@ -132,6 +132,10 @@ ul li {
   .products .row div {
     width: 90%;
     margin: 10% 5% 0;
+  }
+
+  .person h1 {
+    font-size: 2em;
   }
 
   #deko_idea2 {
