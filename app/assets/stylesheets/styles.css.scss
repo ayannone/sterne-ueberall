@@ -1,8 +1,18 @@
+html {
+  background-color: lightblue;
+}
+
 body {
- /* background-color: lightblue;*/
+  /*background-color: lightblue;*/
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 /***   header area   ***/
+
+.logo img {
+  width: 75%;
+}
 
 .social {
   height: 100%;
@@ -17,6 +27,20 @@ body {
 .info h1 {
   /*font-family: 'Gloria Hallelujah', cursive;*/
   font-family: 'Oregano', cursive;
+}
+
+/***   menue   ***/
+
+ ul li {
+  display: inline-block;
+  width: 50px;
+}
+
+/***   promotion area   ***/
+
+#my-carousel {
+  max-width: 600px;
+  /*height: 400px;*/
 }
 
 /***   products area   ***/

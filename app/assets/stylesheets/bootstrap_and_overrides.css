@@ -8,13 +8,27 @@
 
   .container {
     /*background-image: url("tileable_wood_texture.png");*/
+    max-width: 1000px;
   }
 
-  .jumbotron {
+/*  .jumbotron {
     background-color: lightblue;
-    /*background: image-url("bluewood_bg.jpg") no-repeat;*/
     padding: 0;
+  }*/
+
+  .navbar-default {
+  background-color: white;
+  border-color: #e7e7e7;
+}
+   .navbar-default .navbar-nav>li {
+        width: 120px;
+   }
+
+  .navbar-default .navbar-nav>li>a {
+    /*color: white;*/
+    width: 120px;
   }
+
 
   .img-responsive {
     display: inline;
