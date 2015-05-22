@@ -1,5 +1,6 @@
 html {
-  background-color: #B8E7F7;
+  /*background-color: #B8E7F7;*/
+  background: asset-data-url("tileable_wood_texture.png");
 }
 
 body {
@@ -60,9 +61,9 @@ ul li {
 /***   products area   ***/
 
 .products {
-  background: asset-data-url("tileable_wood_texture.png");
-  margin: 75px 0;
-  padding: 25px 0;
+/*  background: asset-data-url("tileable_wood_texture.png");*/
+  margin: 25px 0;
+  /*padding: 25px 0;*/
 }
 
 .products .row {
@@ -70,7 +71,7 @@ ul li {
   padding: 0;
 }
 
-.products .row div {
+/*.products .row div {
   width: 46%;
   margin: 2%;
   padding: 0;
@@ -79,8 +80,11 @@ ul li {
 .products .img-responsive {
   width: 100%;
   padding: 0;
-}
+}*/
 
+.products img:nth-child(even) {
+  display: none;
+}
 
 /***   person area   ***/
 
@@ -129,10 +133,10 @@ ul li {
     text-align: center;
   }
 
-  .products .row div {
+/*  .products .row div {
     width: 90%;
     margin: 10% 5% 0;
-  }
+  }*/
 
   .person h1 {
     font-size: 2em;

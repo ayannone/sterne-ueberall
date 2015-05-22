@@ -26,7 +26,7 @@
   <hr>
 
   <!--
-   <ul>
+  <ul>
     <li>Home</li>
     <li>Shop</li>
     <li>Events</li>
@@ -36,9 +36,34 @@
   </ul>
    -->
 
+  <!--
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li class="active">
+            <a href="#">Über mich</a>
+          </li>
+          <li><a href="#">Shop</a></li>
+          <li><a href="#">Events</a></li>
+          <li><a href="#">Deko Ideen</a></li>
+          <li><a href="#">Kontakt</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  -->
 
-
-    <hr>
+  <hr>
+</div>
 
 <div class="slider">
   <div class="row">
@@ -102,12 +127,41 @@
       </div> -->
     </div> <!-- END carousel -->
 <!--   </div>  -->
+  </div>
 </div>
-</div>
-
 
 
 <div class="products">
+  <div class="row">
+    <a href="http://www.sterne-ueberall.de/sonnen/" target="_blank">
+      <div id="product1" class="col-sm-3">
+        <img src="<%= asset_url('gr_sonne.png') %>" class="img-responsive" alt="Sonne">
+        <img src="<%= asset_url('pr_sonne.jpg') %>" class="img-responsive" alt="Sonne">
+      </div>
+    </a>
+    <a href="http://www.sterne-ueberall.de/h%C3%A4user/" target="_blank">
+      <div id="product2" class="col-sm-3">
+        <img src="<%= asset_url('gr_haus.png') %>" class="img-responsive" alt="Haus">
+        <img src="<%= asset_url('pr_haus.jpg') %>" class="img-responsive" alt="Haus">
+      </div>
+    </a>
+    <a href="http://www.sterne-ueberall.de/girlanden/" target="_blank">
+      <div id="product3" class="col-sm-3">
+        <img src="<%= asset_url('gr_girlande.png') %>" class="img-responsive" alt="Girlande">
+        <img src="<%= asset_url('pr_girlande.jpg') %>" class="img-responsive" alt="Girlande">
+      </div>
+    </a>
+    <a href="http://www.sterne-ueberall.de/sterne/" target="_blank">
+      <div id="product4" class="col-sm-3">
+        <img src="<%= asset_url('gr_stern.png') %>" class="img-responsive" alt="Stern">
+        <img src="<%= asset_url('pr_stern.jpg') %>" class="img-responsive" alt="Stern">
+      </div>
+    </a>
+  </div>
+</div>
+
+
+<!-- <div class="products">
   <div class="row">
     <div id="product1" class="col-sm-6">
       <img src="<%= asset_url('IMG_2352.jpg') %>" class="img-responsive" alt="Sonne">
@@ -124,7 +178,7 @@
        <img src="<%= asset_url('IMG_2240.jpg') %>" class="img-responsive" alt="Girlande">
     </div>
   </div>
-</div>
+</div> -->
 
 <div class="person">
   <h1>Die Ideenmacherin</h1>
