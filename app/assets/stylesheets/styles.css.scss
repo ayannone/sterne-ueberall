@@ -1,12 +1,13 @@
 html {
   /*background-color: #B8E7F7;*/
-  background: asset-data-url("tileable_wood_texture.png");
+  /*background: asset-data-url("tileable_wood_texture.png");*/
 }
 
 body {
   /*background-color: #B8E7F7;*/
- /* max-width: 960px;*/
-  max-width: 1000px;
+  /* max-width: 960px;*/
+   max-width: 1000px;
+  /*max-width: 1200px;*/
   margin: 0 auto;
 }
 
@@ -98,6 +99,7 @@ ul li {
 #person_text {
   font-family: 'Open+Sans';
   font-size: 1.1em;
+  padding-right: 50px;
 }
 
 
