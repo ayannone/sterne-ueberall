@@ -51,18 +51,22 @@ ul li {
 /***   promotion area   ***/
 
 .slider {
-  margin: 0 15px;
+  /*margin: 0 15px;*/
   padding: 25px 0;
+  height: 400px;
 }
 
 #my-carousel {
-  max-width: 600px;
+  /*max-width: 600px;*/
   /*width: 930px;*/
   /*height: 400px;*/
 }
 
 #intro-text {
+  background-color: #B8E7F7;
+  color: white;
   font-size: 1.1em;
+  height: 400px;
 }
 
 /***   products area   ***/
