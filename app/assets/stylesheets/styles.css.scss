@@ -7,14 +7,15 @@ html {
 
 body {
   /*background-color: #B8E7F7;*/
-  /* max-width: 960px;*/
-   /*max-width: 1000px;*/
+  /*max-width: 960px;*/
+  /*max-width: 1000px;*/
   max-width: 1200px;
   margin: 0 auto;
 }
 
+/*************************************************************/
 
-/***   header area   ***/
+/* >>>>>   START header area   */
 
 .logo img {
   /*width: 75%;*/
@@ -35,9 +36,6 @@ body {
   font-family: 'Oregano', cursive;
 }
 
-h1, h2 {
-  text-align: right;
-}
 h2 span {
   font-family: 'Oregano', cursive;
   font-size: .8em;
@@ -45,7 +43,11 @@ h2 span {
   padding-bottom: 30px;
 }
 
-/***   menue   ***/
+/* >>>>>   END header area   */
+
+/*************************************************************/
+
+/* >>>>>   START menue (wird derzeit nicht benutzt)   */
 
 #menu hr {
   margin: 0;
@@ -56,13 +58,16 @@ ul li {
   width: 50px;
 }
 
+/* >>>>>   END menue   */
 
-/***   promotion area   ***/
+/*************************************************************/
 
-.slider {
+/* >>>>>   START intro area   */
+
+.intro {
   /*margin: 0 15px;*/
-  padding: 25px 0;
-  height: 400px;
+  /*padding: 25px 0;*/
+  min-height: 350px;
 }
 
 #my-carousel {
@@ -80,13 +85,17 @@ ul li {
   background-color: #E1F7FC;
   color: #666666;
   font-size: 1.1em;
-  height: 400px;
+  min-height: 350px;
 }
 
-/***   products area   ***/
+/* >>>>>   END intro area   */
+
+/*************************************************************/
+
+/* >>>>>   START products area   */
 
 .products {
-/*  background: asset-data-url("tileable_wood_texture.png");*/
+  /*background: asset-data-url("tileable_wood_texture.png");*/
   margin: 25px 0;
   /*padding: 25px 0;*/
 }
@@ -111,7 +120,11 @@ ul li {
   display: none;
 }
 
-/***   person area   ***/
+/* >>>>>   END products area   */
+
+/*************************************************************/
+
+/* >>>>>   START person area   */
 
 .person h1 {
   text-align: center;
@@ -119,16 +132,19 @@ ul li {
   font-size: 4em;
 }
 
-#person_text {
+#person-text {
   font-family: 'Open+Sans';
   font-size: 1.1em;
   padding-right: 50px;
 }
 
+/* >>>>>   END person area   */
 
-/***   deko_ideas area   ***/
+/*************************************************************/
 
-#deko_ideas_bg {
+/* >>>>>   START deko area   */
+
+#deko-bg {
   height: 550px;
   margin: 75px 0;
   padding: 25px 0;
@@ -136,21 +152,28 @@ ul li {
   opacity: 0.7;
 }
 
-.deko_ideas img {
+/*.deko img {
   position: relative;
   margin-top: -650px;
-}
+}*/
 
-/***   other styling   ***/
+/* >>>>>   END deko area   */
+
+/*************************************************************/
+
+/* >>>>>   START footer area   */
 
 #space_bottom {
   height: 75px;
 }
 
-#footer a {
+footer a {
   margin: 5px;
 }
 
+/* >>>>>   END footer area   */
+
+/*************************************************************/
 
 /***   Media queries   ***/
 
@@ -168,7 +191,7 @@ ul li {
     font-size: 2em;
   }
 
-  #deko_idea2 {
+  #deko-idea2 {
     display: none;
   }
 }

@@ -1,276 +1,240 @@
-  <div class="logo pull-left">
-    <img src="<%= asset_url('logo.png') %>" class="img-responsive" alt="Logo">
-  </div>
+<div class="intro">
+  <div class="row">
+    <div class="col-sm-8">
 
-  <div class="info pull-right">
-    <div class="social">
-    <img src="<%= asset_url('youtube-icon.png') %>" class="img-responsive" alt="Facebook">
-    <img src="<%= asset_url('twitter-icon.png') %>" class="img-responsive" alt="Pinterest">
-     <a href="https://www.facebook.com/sterne.ueberall" target="_blank">
-      <img src="<%= asset_url('facebook-icon.png') %>" class="img-responsive" alt="Mail">
-    </a>
-     <img src="<%= asset_url('pinterest-icon.png') %>" class="img-responsive" alt="Phone">
-    </div>
-    <!-- <h1>Ina Bartels-Hafner</h1> -->
-  </div>
-  <!-- <div class="clearfix"></div>
-  <h2 class="pull-right">Willkommen - Sterne überall</h2> -->
+      <div id="my-carousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#my-carousel" data-slide-to="0" class="active"></li>
+          <li data-target="#my-carousel" data-slide-to="1"></li>
+          <li data-target="#my-carousel" data-slide-to="2"></li>
+          <li data-target="#my-carousel" data-slide-to="3"></li>
+          <li data-target="#my-carousel" data-slide-to="4"></li>
+        </ol>
 
-  <div class="clearfix"></div>
-
-  <!-- <div class="jumbotron">
-    <img src="<%= asset_url('IMG_2409.jpg') %>" class="img-responsive" alt="Sonne">
-  </div> -->
-
-  <div id="menu">
-    <!-- <hr> -->
-
-    <!--
-    <ul>
-      <li>Home</li>
-      <li>Shop</li>
-      <li>Events</li>
-      <li>Design Ideen</li>
-      <li>Über uns</li>
-      <li>Kontakt</li>
-    </ul>
-     -->
-
-    <!--
-    <nav class="navbar navbar-default">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-        </div>
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          <ul class="nav navbar-nav">
-            <li class="active">
-              <a href="#">Über mich</a>
-            </li>
-            <li><a href="#">Shop</a></li>
-            <li><a href="#">Events</a></li>
-            <li><a href="#">Deko Ideen</a></li>
-            <li><a href="#">Kontakt</a></li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-    -->
-
-    <!-- <hr> -->
-  </div>
-
-<h2>Besondere Deko Ideen<span>by Ina Bartels-Hafner</span></h2>
-<hr>
-
-  <div class="slider">
-    <div class="row">
-      <div class="col-sm-8">
-        <div id="my-carousel" class="carousel slide" data-ride="carousel">
-          <!-- Indicators -->
-          <ol class="carousel-indicators">
-            <li data-target="#my-carousel" data-slide-to="0" class="active"></li>
-            <li data-target="#my-carousel" data-slide-to="1"></li>
-            <li data-target="#my-carousel" data-slide-to="2"></li>
-            <li data-target="#my-carousel" data-slide-to="3"></li>
-            <li data-target="#my-carousel" data-slide-to="4"></li>
-          </ol>
-
-          <!-- Wrapper for slides -->
-          <div class="carousel-inner" role="listbox">
-            <div class="item active">
-              <img src="<%= asset_url('slider/IMG_2181.jpg') %>" alt="...">
-              <div class="carousel-caption">
-                ...
-              </div>
-            </div>
-            <div class="item">
-              <img src="<%= asset_url('slider/IMG_1755.jpg') %>" alt="...">
-              <div class="carousel-caption">
-                ...
-              </div>
-            </div>
-            <div class="item">
-              <img src="<%= asset_url('slider/IMG_1886.jpg') %>" alt="...">
-              <div class="carousel-caption">
-                ...
-              </div>
-            </div>
-            <div class="item">
-              <img src="<%= asset_url('slider/IMG_1675.jpg') %>" alt="...">
-              <div class="carousel-caption">
-                ...
-              </div>
-            </div>
-            <div class="item">
-              <img src="<%= asset_url('slider/IMG_1009.jpg') %>" alt="...">
-              <div class="carousel-caption">
-                ...
-              </div>
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+          <div class="item active">
+            <img src="<%= asset_url('slider/IMG_2181.jpg') %>" alt="...">
+            <div class="carousel-caption">
+              ...
             </div>
           </div>
-          <!-- Controls -->
-          <a class="left carousel-control" href="#my-carousel" role="button" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a class="right carousel-control" href="#my-carousel" role="button" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a>
+          <div class="item">
+            <img src="<%= asset_url('slider/IMG_1755.jpg') %>" alt="...">
+            <div class="carousel-caption">
+              ...
+            </div>
+          </div>
+          <div class="item">
+            <img src="<%= asset_url('slider/IMG_1886.jpg') %>" alt="...">
+            <div class="carousel-caption">
+              ...
+            </div>
+          </div>
+          <div class="item">
+            <img src="<%= asset_url('slider/IMG_1675.jpg') %>" alt="...">
+            <div class="carousel-caption">
+              ...
+            </div>
+          </div>
+          <div class="item">
+            <img src="<%= asset_url('slider/IMG_1009.jpg') %>" alt="...">
+            <div class="carousel-caption">
+              ...
+            </div>
+          </div>
+        </div> <!-- END carousel-inner -->
 
+        <!-- Controls -->
+        <a class="left carousel-control" href="#my-carousel" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#my-carousel" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div> <!-- END my-carousel -->
+    </div> <!-- END col-sm-8 -->
 
-        </div>
+    <div id="intro-text" class="col-sm-4">
+     <!--  <h3>Besondere Deko Ideen</h3> -->
+      <h3>Handgemacht mit <img src="<%= asset_url('heart292.png') %>" alt="..."></h3>
+      <h4>fertig oder nach Kundenwunsch</h4>
+      <p>
+        Lorem ipsum dolor sit amet, nam et feugiat iracundia, mundi inermis ad per. Odio comprehensam vituperatoribus an eam. In ius iriure mediocrem, eam in inani animal labitur. Id eum mutat posidonium reformidans, an pri sale iisque consequuntur. Everti omnium consulatu ne per, falli zril rationibus ex cum.
+      </p>
+      <p>
+        Quot fugit in duo. Ius idque integre expetenda ne, sanctus disputationi ut eum, pro cu inani consul. Mea dolore legimus iudicabit eu. Vix et atqui elitr meliore, sensibus rationibus cu vim.
+      </p>
+    </div> <!-- END col-sm-4 -->
+  </div> <!-- END row -->
+</div> <!-- END intro -->
 
-      </div> <!-- END carousel -->
+<div class="clearfix"></div>
 
-       <div id="intro-text" class="col-sm-4">
-       <!--  <h3>Besondere Deko Ideen</h3> -->
-        <h3>Handgemacht mit <img src="<%= asset_url('heart292.png') %>" alt="..."></h3>
-        <h4>fertig oder nach Kundenwunsch</h4>
-        <p>
-          Lorem ipsum dolor sit amet, nam et feugiat iracundia, mundi inermis ad per. Odio comprehensam vituperatoribus an eam. In ius iriure mediocrem, eam in inani animal labitur. Id eum mutat posidonium reformidans, an pri sale iisque consequuntur. Everti omnium consulatu ne per, falli zril rationibus ex cum.
-        </p>
-        <p>
-          Quot fugit in duo. Ius idque integre expetenda ne, sanctus disputationi ut eum, pro cu inani consul. Mea dolore legimus iudicabit eu. Vix et atqui elitr meliore, sensibus rationibus cu vim.
-        </p>
+<div class="products">
+  <h2>Produktkategorien</h2>
+  <hr>
+  <div class="row">
+    <a href="http://www.sterne-ueberall.de/sonnen/" target="_blank">
+      <div id="product1" class="col-sm-3">
+        <img src="<%= asset_url('gr_sonne.png') %>" class="img-responsive" alt="Sonne">
+        <img src="<%= asset_url('pr_sonne.jpg') %>" class="img-responsive" alt="Sonne">
       </div>
+    </a>
+    <a href="http://www.sterne-ueberall.de/h%C3%A4user/" target="_blank">
+      <div id="product2" class="col-sm-3">
+        <img src="<%= asset_url('gr_haus.png') %>" class="img-responsive" alt="Haus">
+        <img src="<%= asset_url('pr_haus.jpg') %>" class="img-responsive" alt="Haus">
+      </div>
+    </a>
+    <a href="http://www.sterne-ueberall.de/girlanden/" target="_blank">
+      <div id="product3" class="col-sm-3">
+        <img src="<%= asset_url('gr_girlande.png') %>" class="img-responsive" alt="Girlande">
+        <img src="<%= asset_url('pr_girlande.jpg') %>" class="img-responsive" alt="Girlande">
+      </div>
+    </a>
+    <a href="http://www.sterne-ueberall.de/sterne/" target="_blank">
+      <div id="product4" class="col-sm-3">
+        <img src="<%= asset_url('gr_stern.png') %>" class="img-responsive" alt="Stern">
+        <img src="<%= asset_url('pr_stern.jpg') %>" class="img-responsive" alt="Stern">
+      </div>
+    </a>
+  </div>
+</div>
 
+<!-- <div class="products">
+  <div class="row">
+    <div id="product1" class="col-sm-6">
+      <img src="<%= asset_url('IMG_2352.jpg') %>" class="img-responsive" alt="Sonne">
     </div>
-    </div>
-  </div> <!-- end slider -->
-
-<h2>Produktkategorien</h2>
-<hr>
-
-
-  <div class="products">
-    <div class="row">
-      <a href="http://www.sterne-ueberall.de/sonnen/" target="_blank">
-        <div id="product1" class="col-sm-3">
-          <img src="<%= asset_url('gr_sonne.png') %>" class="img-responsive" alt="Sonne">
-          <img src="<%= asset_url('pr_sonne.jpg') %>" class="img-responsive" alt="Sonne">
-        </div>
-      </a>
-      <a href="http://www.sterne-ueberall.de/h%C3%A4user/" target="_blank">
-        <div id="product2" class="col-sm-3">
-          <img src="<%= asset_url('gr_haus.png') %>" class="img-responsive" alt="Haus">
-          <img src="<%= asset_url('pr_haus.jpg') %>" class="img-responsive" alt="Haus">
-        </div>
-      </a>
-      <a href="http://www.sterne-ueberall.de/girlanden/" target="_blank">
-        <div id="product3" class="col-sm-3">
-          <img src="<%= asset_url('gr_girlande.png') %>" class="img-responsive" alt="Girlande">
-          <img src="<%= asset_url('pr_girlande.jpg') %>" class="img-responsive" alt="Girlande">
-        </div>
-      </a>
-      <a href="http://www.sterne-ueberall.de/sterne/" target="_blank">
-        <div id="product4" class="col-sm-3">
-          <img src="<%= asset_url('gr_stern.png') %>" class="img-responsive" alt="Stern">
-          <img src="<%= asset_url('pr_stern.jpg') %>" class="img-responsive" alt="Stern">
-        </div>
-      </a>
+    <div id="product2" class="col-sm-6">
+      <img src="<%= asset_url('IMG_1929.jpg') %>" class="img-responsive" alt="Stern">
     </div>
   </div>
-
-
-  <!-- <div class="products">
-    <div class="row">
-      <div id="product1" class="col-sm-6">
-        <img src="<%= asset_url('IMG_2352.jpg') %>" class="img-responsive" alt="Sonne">
-      </div>
-      <div id="product2" class="col-sm-6">
-        <img src="<%= asset_url('IMG_1929.jpg') %>" class="img-responsive" alt="Stern">
-      </div>
+  <div class="row">
+    <div id="product3" class="col-sm-6">
+      <img src="<%= asset_url('CIMG0174.jpg') %>" class="img-responsive" alt="Haus">
     </div>
-    <div class="row">
-      <div id="product3" class="col-sm-6">
-        <img src="<%= asset_url('CIMG0174.jpg') %>" class="img-responsive" alt="Haus">
-      </div>
-      <div id="product4" class="col-sm-6">
-         <img src="<%= asset_url('IMG_2240.jpg') %>" class="img-responsive" alt="Girlande">
-      </div>
+    <div id="product4" class="col-sm-6">
+       <img src="<%= asset_url('IMG_2240.jpg') %>" class="img-responsive" alt="Girlande">
     </div>
+  </div>
+</div> -->
+
+<div class="person">
+  <h2>Die Ideenmacherin oder was Ihr wollt</h2>
+  <hr>
+  <div class="row">
+    <div id="person-picture" class="col-sm-6">
+      <img src="<%= asset_url('portrait.jpg') %>" class="img-responsive pull-right" alt="Ina Bartels-Hafner">
+    </div>
+    <div id="person-text" class="col-sm-6">
+     <!--  <h3>Ina Bartels-Hafner</h3>
+      <h4>Produktentwicklung, Design und vieles andere</h4>
+      <p>
+        Jahrgang 1967. Nach der Ausbildung zur Floristin folgte wenige Jahre später die Meisterausbildung in Hannover.<br>
+        Als frischgebackene Floristmeisterin habe ich in einigen der schönsten Städte Deutschlands gearbeitet, nämlich München, Berlin und Hamburg.
+      </p>
+      <p>
+        2011 erfolgte der Schritt in die Selbstständigkeit und in meiner winzigen Werkstatt entstanden die ersten Sterne.<br>
+        Alles hing voller Deko-Sterne, so entstand der Name: - Sterne überall -.
+      </p>
+        Die Aufmunterung meiner Kunden hat mich motiviert weitere Produkte zu entwerfen und auch ganzjährig anzubieten. Somit hat sich meine Produktpalette inzwischen auf "Sonne, Haus, Sterne und Girlanden" erweitert.
+      </p>
+        Neue kreative Ideen kommen mir beim Schwimmen, beim Kaffeetrinken und beim Autofahren.
+      </p> -->
+      <!-- <h3>Warum Sterne überall?</h3> -->
+      <p>
+        „Total sternebegeistert und dekowütig“, das sagen Freunde und Familie über mich. Mit einem Stern fing 2011 alles an. Dann kamen immer mehr dazu und in der Werkstatt hingen „Sterne überall“
+      </p>
+      <p>
+        Auf einmal war der Weg klar, - Sterne überall – wird gegründet und meine Sterne ziehen hinaus in die Welt um Euch zu erfreuen. Sie wollen ein Teil der Dinge sein, die Euch umgeben. Vielleicht zum Träumen anregen und einen bleibenden Eindruck hinterlassen, wenn Ihr sie verschenkt.
+      </p>
+      <p>
+        Die weltbesten Ideen kommen sehr oft von Kunden, und so ist es eine besondere Freude für mich, die Dekowünsche von Euch umzusetzen. Jeder Mensch hat eine kreative Seite!
+      </p>
+      <p>
+        Ich freue mich sehr, wenn ich Deinen persönlichen Stern für Deine Haustür oder die Sonne für Deine Freundin Julia arbeiten darf.
+      </p>
+      <p>
+        Ruf mich an, schreib mir, schick mir ein Foto von deiner weißen Wand, ich freue mich sehr.
+      </p>
+      <p>
+        Deine Ina.
+      </p>
+    </div>
+  </div>
+</div>
+
+<!--   <div class="deko">
+    <div id="deko-bg"></div>
+    <img id="deko-idea1" src="<%= asset_url('IMG_2297-f1.png') %>" class="img-responsive" alt="Hallo Haus">
+    <img id="deko-idea2" src="<%= asset_url('IMG_5665.png') %>" class="img-responsive pull-right" alt="Fisch Girlande">
   </div> -->
 
-  <div class="person">
-    <h1>Die Ideenmacherin oder was Ihr wollt</h1>
-    <hr>
-    <div class="row">
-      <div id="person_picture" class="col-sm-6">
-        <img src="<%= asset_url('portrait.jpg') %>" class="img-responsive pull-right" alt="Ina Bartels-Hafner">
-      </div>
-      <div id="person_text" class="col-sm-6">
-       <!--  <h3>Ina Bartels-Hafner</h3>
-        <h4>Produktentwicklung, Design und vieles andere</h4>
-        <p>
-          Jahrgang 1967. Nach der Ausbildung zur Floristin folgte wenige Jahre später die Meisterausbildung in Hannover.<br>
-          Als frischgebackene Floristmeisterin habe ich in einigen der schönsten Städte Deutschlands gearbeitet, nämlich München, Berlin und Hamburg.
-        </p>
-        <p>
-          2011 erfolgte der Schritt in die Selbstständigkeit und in meiner winzigen Werkstatt entstanden die ersten Sterne.<br>
-          Alles hing voller Deko-Sterne, so entstand der Name: - Sterne überall -.
-        </p>
-          Die Aufmunterung meiner Kunden hat mich motiviert weitere Produkte zu entwerfen und auch ganzjährig anzubieten. Somit hat sich meine Produktpalette inzwischen auf "Sonne, Haus, Sterne und Girlanden" erweitert.
-        </p>
-          Neue kreative Ideen kommen mir beim Schwimmen, beim Kaffeetrinken und beim Autofahren.
-        </p> -->
-        <h3>Warum Sterne überall?</h3>
-        <p>
-          „Total sternebegeistert und dekowütig“, das sagen Freunde und Familie über mich. Mit einem Stern fing 2011 alles an. Dann kamen immer mehr dazu und in der Werkstatt hingen „Sterne überall“
-        </p>
-        <p>
-          Auf einmal war der Weg klar, - Sterne überall – wird gegründet und meine Sterne ziehen hinaus in die Welt um Euch zu erfreuen. Sie wollen ein Teil der Dinge sein, die Euch umgeben. Vielleicht zum Träumen anregen und einen bleibenden Eindruck hinterlassen, wenn Ihr sie verschenkt.
-        </p>
-        <p>
-          Die weltbesten Ideen kommen sehr oft von Kunden, und so ist es eine besondere Freude für mich, die Dekowünsche von Euch umzusetzen. Jeder Mensch hat eine kreative Seite!
-        </p>
-        <p>
-          Ich freue mich sehr, wenn ich Deinen persönlichen Stern für Deine Haustür oder die Sonne für Deine Freundin Julia arbeiten darf.
-        </p>
-        <p>
-          Ruf mich an, schreib mir, schick mir ein Foto von deiner weißen Wand, ich freue mich sehr.
-        </p>
-        <p>
-          Deine Ina.
-        </p>
-      </div>
+<div class="clearfix"></div>
+
+<div class="deko">
+  <h2>Dekorationsideen</h2>
+  <hr>
+  <div class="row">
+    <div class="col-sm-6">
+      <img src="<%= asset_url('deko-sommer.jpg') %>" class="img-responsive pull-right" alt="Deko Idee für den Sommer">
+    </div>
+    <div class="col-sm-6">
+      <h3>Meine Sommerdekoidee</h3>
+      <p>
+        Meeresrauschen, Sonne auf der Haut …wunderschöne Erinnerungen an den vergangenen Urlaub. Du möchtest dir das warme Feeling vom letzten Sommerurlaub wieder vor Augen rufen? Wie wäre es mit einem lebendigen Windspiel aus verschiedenen Accessoires des letzten Sommerurlaubes.
+      </p>
+      <!-- <p>
+        Wenn du noch Muscheln und Hölzer hast, kannst du daraus wunderbar in Kombination mit einigen Perlen ein kleines Windspiel kreieren. Einfach die Muscheln und Hölzer durchbohren, mit einem dünnen Faden Perlen, Muscheln und Hölzer auffädeln und an einem größerem Holz befestigen. Wir es richtig maritim haben möchte hängt ein schönes Meeresbild in den Hintergrund. Viel Spaß beim selber machen.
+      </p>
+      <p>
+        Wer schnell fertig werden möchte, kann hier im Shop stöbern oder sich ein Windspiel nach den eigenen Wünschen von mir anfertigen lassen.
+      </p> -->
     </div>
   </div>
+</div>
 
-  <div class="deko_ideas">
-    <div id="deko_ideas_bg"></div>
-    <img id="deko_idea1" src="<%= asset_url('IMG_2297-f1.png') %>" class="img-responsive" alt="Hallo Haus">
-    <img id="deko_idea2" src="<%= asset_url('IMG_5665.png') %>" class="img-responsive pull-right" alt="Fisch Girlande">
-  </div>
+<div class="contact">
+  <h2>Kontaktformular</h2>
+  <hr>
+  <div class="row">
 
-  <div class="clearfix"></div>
+    <div id="contact-form" class="col-sm-6">
 
-  <div class="deko_mideas">
-    <div class="row">
-      <div class="col-sm-6">
-        <img src="<%= asset_url('deko-sommer.jpg') %>" class="img-responsive pull-right" alt="Deko Idee für den Sommer">
+      <div class="form-group">
+          <%= label_tag 'name', 'Name' %>
+          <%= text_field_tag 'name', nil, class: 'form-control contact-field' %>
       </div>
-      <div class="col-sm-6">
-        <h3>Meine Sommerdekoidee</h3>
-        <p>
-          Meeresrauschen, Sonne auf der Haut …wunderschöne Erinnerungen an den vergangenen Urlaub. Du möchtest dir das warme Feeling vom letzten Sommerurlaub wieder vor Augen rufen? Wie wäre es mit einem lebendigen Windspiel aus verschiedenen Accessoires des letzten Sommerurlaubes.
-        </p>
-        <!-- <p>
-          Wenn du noch Muscheln und Hölzer hast, kannst du daraus wunderbar in Kombination mit einigen Perlen ein kleines Windspiel kreieren. Einfach die Muscheln und Hölzer durchbohren, mit einem dünnen Faden Perlen, Muscheln und Hölzer auffädeln und an einem größerem Holz befestigen. Wir es richtig maritim haben möchte hängt ein schönes Meeresbild in den Hintergrund. Viel Spaß beim selber machen.
-        </p>
-        <p>
-          Wer schnell fertig werden möchte, kann hier im Shop stöbern oder sich ein Windspiel nach den eigenen Wünschen von mir anfertigen lassen.
-        </p> -->
+      <div class="form-group">
+          <%= label_tag 'email', 'Email' %>
+          <%= email_field_tag 'email', nil, class: 'form-control contact-field' %>
       </div>
+      <div class="form-group">
+          <%= label_tag 'service', 'Service' %>
+          <%= select_tag 'service', options_for_select(['Anfrage', 'Bestellung', 'Kundenwunsch']), class: 'contact-field' %>
+      </div>
+      <!-- <div class="form-group">
+          <%= label_tag 'datepicker', 'Date' %>
+          <%= text_field_tag 'datepicker', nil, class: 'form-control contact-field' %>
+      </div> -->
+      <div class="form-group">
+          <%= label_tag 'comments', 'Comments' %>
+          <%= text_area_tag 'comments', nil, class: 'form-control contact-field', rows: 10 %>
+      </div>
+      <div class="form-button">
+          <%= submit_tag nil, class: 'btn btn-default btn-about' %>
+      </div>
+
     </div>
+
   </div>
+</div>
 
+<hr>
 
-
-  <div id="space_bottom"></div>
+<div id="space_bottom"></div>
