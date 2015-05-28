@@ -61,3 +61,4 @@ gem 'aws-sdk', '< 2.0'
 gem 'omniauth'
 gem 'devise'
 
+gem 'jquery-ui-rails'

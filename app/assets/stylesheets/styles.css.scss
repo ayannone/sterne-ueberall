@@ -132,6 +132,16 @@ ul li {
   display: none;
 }
 
+/*.image:hover {
+  -webkit-animation:spin .5s linear;
+  -moz-animation:spin .5s linear;
+  animation:spin .5s linear;
+}
+@-moz-keyframes spin { 10% { -moz-transform: rotate(5deg); } }
+@-webkit-keyframes spin { 10% { -webkit-transform: rotate(5deg); } }
+@keyframes spin { 10% { -webkit-transform: rotate(5deg); transform:rotate(5deg); } }
+*/
+
 /* >>>>>   END products area   */
 
 /*************************************************************/
