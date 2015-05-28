@@ -208,15 +208,15 @@
     <div id="contact-form" class="col-sm-6">
 
       <div class="form-group">
-          <%= label_tag 'name', 'Name' %>
+          <%= label_tag 'name', 'Dein Name' %>
           <%= text_field_tag 'name', nil, class: 'form-control contact-field' %>
       </div>
       <div class="form-group">
-          <%= label_tag 'email', 'Email' %>
-          <%= email_field_tag 'email', nil, class: 'form-control contact-field' %>
+          <%= label_tag 'contact', 'Wie kann ich dich erreichen? (Telefonummer, Handy, E-Mail-Adresse)' %>
+          <%= text_field_tag 'contact', nil, class: 'form-control contact-field' %>
       </div>
       <div class="form-group">
-          <%= label_tag 'service', 'Service' %>
+          <%= label_tag 'service', "Worum geht's?" %>
           <%= select_tag 'service', options_for_select(['Anfrage', 'Bestellung', 'Kundenwunsch']), class: 'contact-field' %>
       </div>
       <!-- <div class="form-group">
@@ -224,11 +224,11 @@
           <%= text_field_tag 'datepicker', nil, class: 'form-control contact-field' %>
       </div> -->
       <div class="form-group">
-          <%= label_tag 'comments', 'Comments' %>
-          <%= text_area_tag 'comments', nil, class: 'form-control contact-field', rows: 10 %>
+          <%= label_tag 'comments', 'Deine Nachricht' %>
+          <%= text_area_tag 'comments', nil, class: 'form-control contact-field', rows: 5 %>
       </div>
       <div class="form-button">
-          <%= submit_tag nil, class: 'btn btn-default btn-about' %>
+          <%= submit_tag 'Senden', class: 'btn btn-default btn-about'  %>
       </div>
 
     </div>
