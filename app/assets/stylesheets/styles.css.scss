@@ -21,6 +21,11 @@ body {
   font-family: 'Oregano', cursive;
 }
 
+.textbox {
+  background-color: #E1F7FC;
+  font-family: 'Open+Sans';
+}
+
 /*************************************************************/
 
 /* >>>>>   START header area   */
@@ -50,6 +55,13 @@ h2 span {
   font-size: .8em;
   padding-left: 10px;
   padding-bottom: 30px;
+}
+
+.fb-like {
+  margin-left: 30px;
+  margin-top: 30px;
+  /*background-color: green;*/
+  width: 300px;
 }
 
 /* >>>>>   END header area   */
@@ -102,7 +114,6 @@ ul li {
 }
 
 #intro-text {
-  background-color: #E1F7FC;
   color: #666666;
   font-size: 1.1em;
   min-height: 350px;
@@ -163,7 +174,6 @@ ul li {
 }
 
 #person-text {
-  font-family: 'Open+Sans';
   font-size: 1.1em;
   padding-right: 50px;
 }
@@ -216,6 +226,14 @@ footer a {
   .social, .info h1 {
     float: none;
     text-align: center;
+  }
+
+  .fb-like {
+    display: none !important;
+  }
+
+  #header-hr {
+    display: none;
   }
 
 /*  .info h1 {
