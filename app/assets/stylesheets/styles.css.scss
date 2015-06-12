@@ -63,6 +63,41 @@ body {
   left: 20px;
 }
 
+#stern-klein-1 {
+  top: 210px;
+  right: 275px;
+  display: inline;
+}
+
+#stern-klein-2 {
+  top: 10px;
+  left: 180px;
+}
+
+#stern-klein-3 {
+  top: 20px;
+  left: 500px;
+}
+
+#stern-klein-4 {
+  top: 20px;
+  left: 550px;
+}
+
+#stern-klein-5 {
+  bottom: 0px;
+  right: 150px;
+}
+
+#stern-klein-6 {
+  bottom: 0px;
+  right: 100px;
+}
+
+#stern-klein-7 {
+  bottom: 0px;
+  right: 50px;
+}
 
 /*************************************************************/
 
@@ -247,6 +282,10 @@ ul li {
 
 /* >>>>>   START deko area   */
 
+.deko {
+  position: relative;
+}
+
 #deko-bg {
   height: 550px;
   margin: 75px 0;
@@ -305,6 +344,7 @@ ul li {
 #footerbar {
   padding: 0 20px 5px;
   border-top: 1px solid lightgrey;
+  max-width: 1200px;
 }
 
 footer a {
@@ -320,12 +360,28 @@ footer a {
   margin-top: -5px;
 }
 
+#impressum {
+  margin-top: 20px;
+}
 
 /* >>>>>   END footer area   */
 
 /*************************************************************/
 
 /***   Media queries   ***/
+
+@media screen and (max-width: 1199px) {
+
+  #stern2, #stern3, #stern4, #stern5 {
+    display: none;
+  }
+
+  #stern-klein-1, #stern-klein-2, #stern-klein-3, #stern-klein-4,
+  #stern-klein-5, #stern-klein-6, #stern-klein-7 {
+    display: none;
+  }
+
+}
 
 @media screen and (min-width: 769px) {
 
