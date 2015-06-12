@@ -124,9 +124,14 @@ ul li {
 }
 
 #note {
-
-  max-width: 100%;
+  margin-left: -20px;
+  width: 160px;
 }
+
+#note p {
+  text-align: center;
+}
+
 /* >>>>>   END intro area   */
 
 /*************************************************************/
@@ -247,20 +252,27 @@ ul li {
 /* >>>>>   START footer area   */
 
 #space_bottom {
-  height: 75px;
+  height: 150px;
 }
 
-footer {
-  padding: 20px;
+#footerbar {
+  padding: 0 20px 5px;
+  border-top: 1px solid lightgrey;
 }
 
 footer a {
   margin: 5px;
 }
 
+.footer-br {
+  display: none;
+}
+
 .footer-logo {
   height: 30px;
+  margin-top: -5px;
 }
+
 
 /* >>>>>   END footer area   */
 
@@ -310,6 +322,10 @@ footer a {
     font-size: 2em;
   }
 
+  .not-mobile {
+    display: none;
+  }
+
   #deko-idea2 {
     display: none;
   }
@@ -323,5 +339,18 @@ footer a {
     margin-top: 0;
     margin-left: 30px;
   }
+
+  #footerbar p {
+    /*text-align: center;*/
+  }
+
+  .footer-br {
+    display: inline;
+  }
+
+  .footer-logo {
+    height: 25px;
+  }
+
 
 }
