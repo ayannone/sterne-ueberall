@@ -31,6 +31,39 @@ body {
   /*font-family: 'Open+Sans';*/
 }
 
+.stern {
+  position: absolute;
+  opacity: .9;
+  z-index: 1;
+}
+
+#stern1 {
+  top: -50px;
+  right: -5px;
+}
+
+#stern2 {
+  top: -5px;
+  left: 230px;
+  display: inline;
+}
+
+#stern3 {
+  top: 250px;
+  left: 395px;
+}
+
+#stern4 {
+  top: -50px;
+  right: -20px;
+}
+
+#stern5 {
+  top: -120px;
+  left: 20px;
+}
+
+
 /*************************************************************/
 
 /* >>>>>   START header area   */
@@ -105,12 +138,12 @@ ul li {
   position: relative;
 }
 
-#intro-text > img:first-of-type {
+/*#intro-text > img:first-of-type {
   position: absolute;
   top: -50px;
   right: -5px;
   opacity: .9;
-}
+}*/
 
 #intro-text h3 {
   font-family: 'Oregano', cursive;
@@ -139,6 +172,7 @@ ul li {
 /* >>>>>   START products area   */
 
 .products {
+  position: relative;
   /*background: asset-data-url("tileable_wood_texture.png");*/
   margin: 25px 0;
   /*padding: 25px 0;*/
@@ -147,6 +181,7 @@ ul li {
 .products .row {
   margin: 0;
   padding: 0;
+  position: relative;
 }
 
 /*.products .row div {
@@ -192,7 +227,11 @@ ul li {
   font-size: 4em;
 }
 
-#person-picture {
+#person-picture  {
+  position: relative;
+}
+
+#person-picture img {
   padding: 0 5px;
 }
 
@@ -229,7 +268,11 @@ ul li {
   font-size: 1.1em;
 }
 
-#deko-picture {
+#deko-picture  {
+  position: relative;
+}
+
+#deko-picture img {
   padding: 0 5px;
 }
 
@@ -237,7 +280,11 @@ ul li {
 
 /*************************************************************/
 
-/* >>>>>   START info area   */
+/* >>>>>   START contact / info area   */
+
+.contact {
+  position: relative;
+}
 
 .info-box {
   float:left;
@@ -246,7 +293,7 @@ ul li {
   margin-left: 50px;
 }
 
-/* >>>>>   END info area   */
+/* >>>>>   END contact / info area   */
 
 /*************************************************************/
 /* >>>>>   START footer area   */
@@ -280,7 +327,19 @@ footer a {
 
 /***   Media queries   ***/
 
+@media screen and (min-width: 769px) {
+
+  .hide-desktop {
+    display: none;
+  }
+
+}
+
 @media screen and (max-width: 768px) {
+
+  .hide-mobile {
+    display: none;
+  }
 
   #intro-text, #person-text {
     margin: 20px;
@@ -322,10 +381,6 @@ footer a {
     font-size: 2em;
   }
 
-  .not-mobile {
-    display: none;
-  }
-
   #deko-idea2 {
     display: none;
   }
@@ -351,6 +406,5 @@ footer a {
   .footer-logo {
     height: 25px;
   }
-
 
 }

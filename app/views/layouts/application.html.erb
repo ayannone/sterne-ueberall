@@ -59,7 +59,12 @@
             <img src="<%= asset_url('icon-twitter.png') %>" class="img-responsive" alt="Twitter">
           </a>
         </div>
-        <div class="fb-like" data-href="http://www.sterne-ueberall.de" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
+        <div class="hide-mobile">
+          <div class="fb-like" data-href="http://www.sterne-ueberall.de" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
+        </div>
+        <div class="hide-desktop">
+          <div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
+        </div>
         <!-- <h1>Ina Bartels-Hafner</h1> -->
       <!-- </div> -->
 
@@ -116,13 +121,17 @@
           <img src="<%= asset_url('icon-whatsapp.png') %>" class="img-responsive footer-logo" alt="Whatsapp Logo"> 0178-961 12 61 <br class="footer-br" /><img src="<%= asset_url('icon-email.png') %>" class="img-responsive footer-logo" alt="Email Icon"> ina@sterne-ueberall.de
         </p>
 
-        <a href="http://www.sterne-ueberall.de" target="_blank" class="btn btn-primary pull-right">
-          <span class="glyphicon glyphicon-star"></span>
-          Online-Shop
-        </a>
-        <a href="impressum.html" target="_blank" class="pull-right">
-          Impressum
-        </a>
+        <div id="online-shop" class="pull-right">
+          <a href="http://www.sterne-ueberall.de" target="_blank" class="btn btn-primary">
+            <span class="glyphicon glyphicon-star"></span>
+            Online-Shop
+          </a>
+        </div>
+        <div id="impressum" class="pull-right">
+          <a href="impressum.html" target="_blank">
+            Impressum
+          </a>
+        </div>
       </div>
     </footer>
     <!--

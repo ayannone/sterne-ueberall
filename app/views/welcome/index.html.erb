@@ -59,8 +59,8 @@
     </div> <!-- END col-sm-8 -->
 
     <div id="intro-text" class="textbox col-sm-4">
-      <img src="<%= asset_url('stern.png') %>" alt="...">
-      <h3 class="title">Handgemacht mit <img src="<%= asset_url('heart292.png') %>" alt="..."></h3>
+      <img id="stern1" class="stern" src="<%= asset_url('stern.png') %>" alt="Stern">
+      <h3 class="title">Handgemacht mit <img src="<%= asset_url('heart292.png') %>" alt="Herz"></h3>
       <h4>aus dem Shop oder nach Deinem Wunsch</h4>
       <div id="note">
         <a href="http://www.kreativzeit-bremen.de/kreativzeit" target="_blank"><img src="<%= asset_url('note-img.png') %>" class="img-responsive" alt="Notiz"></a>
@@ -88,6 +88,9 @@
         <img src="<%= asset_url('pr_sonne.jpg') %>" class="img-responsive" alt="Sonne">
       </div>
     </a>
+
+    <img id="stern2" class="stern" src="<%= asset_url('stern.png') %>" alt="Stern">
+
     <a href="http://www.sterne-ueberall.de/h%C3%A4user/" target="_blank">
       <div id="product2" class="col-sm-3">
         <img src="<%= asset_url('gr_haus.png') %>" class="image img-responsive" alt="Haus">
@@ -132,8 +135,9 @@
   <h2 class="title">Die Ideenmacherin oder "Was Ihr wollt"</h2>
   <hr>
   <div class="row">
-    <div class="col-sm-5">
-      <img id="person-picture" src="<%= asset_url('portrait.jpg') %>" class="img-responsive" alt="Ina Bartels-Hafner">
+    <div id="person-picture" class="col-sm-5">
+      <img src="<%= asset_url('portrait.jpg') %>" class="img-responsive" alt="Ina Bartels-Hafner">
+      <img id="stern3" class="stern" src="<%= asset_url('stern.png') %>" alt="Stern">
     </div>
     <div id="person-text" class="textbox col-sm-7">
      <!--  <h3>Ina Bartels-Hafner</h3>
@@ -154,7 +158,7 @@
       <p>
         "Total sternebegeistert und dekowütig", das sagen Freunde und Familie über mich. Mit einem Stern fing 2011 alles an. Dann kamen immer mehr dazu und in der Werkstatt hingen „Sterne überall“
       </p>
-      <p class="not-mobile">
+      <p class="hide-mobile">
         Auf einmal war der Weg klar, - Sterne überall – wird gegründet und meine Sterne ziehen hinaus in die Welt um Euch zu erfreuen. Sie wollen ein Teil der Dinge sein, die Euch umgeben. Vielleicht zum Träumen anregen und einen bleibenden Eindruck hinterlassen, wenn Ihr sie verschenkt.
       </p>
       <p>
@@ -200,13 +204,15 @@
         Wer schnell fertig werden möchte, kann hier im Shop stöbern oder sich ein Windspiel nach den eigenen Wünschen von mir anfertigen lassen.
       </p> -->
     </div>
-    <div class="col-sm-6">
-      <img id="deko-picture" src="<%= asset_url('deko-sommer.jpg') %>" class="img-responsive" alt="Deko Idee für den Sommer">
+    <div id="deko-picture" class="col-sm-6">
+      <img src="<%= asset_url('deko-sommer.jpg') %>" class="img-responsive" alt="Deko Idee für den Sommer">
+      <img id="stern4" class="stern" src="<%= asset_url('stern.png') %>" alt="Stern">
     </div>
   </div>
 </div>
 
 <div class="contact">
+  <img id="stern5" class="stern" src="<%= asset_url('stern.png') %>" alt="Stern">
   <h2 class="title">Kontaktformular</h2>
   <hr>
   <div class="row">
