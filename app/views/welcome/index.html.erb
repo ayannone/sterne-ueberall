@@ -60,14 +60,15 @@
 
     <div id="intro-text" class="textbox col-sm-4">
       <img src="<%= asset_url('stern.png') %>" alt="...">
-      <h3 class="title-font">Handgemacht mit <img src="<%= asset_url('heart292.png') %>" alt="..."></h3>
+      <h3 class="title">Handgemacht mit <img src="<%= asset_url('heart292.png') %>" alt="..."></h3>
       <h4>aus dem Shop oder nach deinem Wunsch</h4>
-      <p>
+      <img id="note" src="<%= asset_url('note-img.png') %>" class="img-responsive" alt="Note">
+     <!--  <p>
         Lorem ipsum dolor sit amet, nam et feugiat iracundia, mundi inermis ad per. Odio comprehensam vituperatoribus an eam. In ius iriure mediocrem, eam in inani animal labitur. Id eum mutat posidonium reformidans, an pri sale iisque consequuntur. Everti omnium consulatu ne per, falli zril rationibus ex cum.
       </p>
       <p>
         Quot fugit in duo. Ius idque integre expetenda ne, sanctus disputationi ut eum, pro cu inani consul. Mea dolore legimus iudicabit eu. Vix et atqui elitr meliore, sensibus rationibus cu vim.
-      </p>
+      </p> -->
     </div> <!-- END col-sm-4 -->
   </div> <!-- END row -->
 </div> <!-- END intro -->
@@ -75,7 +76,7 @@
 <div class="clearfix"></div>
 
 <div class="products">
-  <h2 class="title-font">Willkommen im Online-Shop von "Sterne überall"</h2>
+  <h2 class="title">Willkommen im Online-Shop von <img src="<%= asset_url('stern-rot.png') %>" class="img-responsive star" alt="roter Stern"> Sterne überall <img src="<%= asset_url('stern-rot.png') %>" class="img-responsive star" alt="roter Stern"></h2>
   <hr>
   <div class="row">
     <a href="http://www.sterne-ueberall.de/sonnen/" target="_blank">
@@ -125,13 +126,13 @@
 </div> -->
 
 <div class="person">
-  <h2 class="title-font">Die Ideenmacherin oder "Was Ihr wollt"</h2>
+  <h2 class="title">Die Ideenmacherin oder "Was Ihr wollt"</h2>
   <hr>
   <div class="row">
-    <div id="person-picture" class="col-sm-6">
-      <img src="<%= asset_url('portrait.jpg') %>" class="img-responsive pull-right" alt="Ina Bartels-Hafner">
+    <div class="col-sm-5">
+      <img id="person-picture" src="<%= asset_url('portrait.jpg') %>" class="img-responsive" alt="Ina Bartels-Hafner">
     </div>
-    <div id="person-text" class="textbox col-sm-6">
+    <div id="person-text" class="textbox col-sm-7">
      <!--  <h3>Ina Bartels-Hafner</h3>
       <h4>Produktentwicklung, Design und vieles andere</h4>
       <p>
@@ -148,7 +149,7 @@
       </p> -->
       <!-- <h3>Warum Sterne überall?</h3> -->
       <p>
-        „Total sternebegeistert und dekowütig“, das sagen Freunde und Familie über mich. Mit einem Stern fing 2011 alles an. Dann kamen immer mehr dazu und in der Werkstatt hingen „Sterne überall“
+        "Total sternebegeistert und dekowütig", das sagen Freunde und Familie über mich. Mit einem Stern fing 2011 alles an. Dann kamen immer mehr dazu und in der Werkstatt hingen „Sterne überall“
       </p>
       <p>
         Auf einmal war der Weg klar, - Sterne überall – wird gegründet und meine Sterne ziehen hinaus in die Welt um Euch zu erfreuen. Sie wollen ein Teil der Dinge sein, die Euch umgeben. Vielleicht zum Träumen anregen und einen bleibenden Eindruck hinterlassen, wenn Ihr sie verschenkt.
@@ -178,16 +179,16 @@
 <div class="clearfix"></div>
 
 <div class="deko">
-  <h2 class="title-font">Dekorationsidee</h2>
+  <h2 class="title">Dekorationsidee</h2>
   <hr>
   <div class="row">
-    <div class="col-sm-6">
-      <img src="<%= asset_url('deko-sommer.jpg') %>" class="img-responsive pull-right" alt="Deko Idee für den Sommer">
-    </div>
-    <div class="textbox col-sm-6">
-      <h3 class="title-font">Meine Sommerdekoidee</h3>
+    <div id="deko-text" class="textbox col-sm-6">
+      <h3 class="title">Meine Sommerdekoidee</h3>
       <p>
-        Meeresrauschen, Sonne auf der Haut …wunderschöne Erinnerungen an den vergangenen Urlaub. Du möchtest dir das warme Feeling vom letzten Sommerurlaub wieder vor Augen rufen? Wie wäre es mit einem lebendigen Windspiel aus verschiedenen Accessoires des letzten Sommerurlaubes.
+        Meeresrauschen, Sonne auf der Haut …wunderschöne Erinnerungen an den vergangenen Urlaub. Du möchtest dir das warme Feeling vom letzten Sommerurlaub wieder vor Augen rufen?
+      </p>
+      <p>
+        Wie wäre es mit einem lebendigen Windspiel aus verschiedenen Accessoires des letzten Sommerurlaubes.
       </p>
       <!-- <p>
         Wenn du noch Muscheln und Hölzer hast, kannst du daraus wunderbar in Kombination mit einigen Perlen ein kleines Windspiel kreieren. Einfach die Muscheln und Hölzer durchbohren, mit einem dünnen Faden Perlen, Muscheln und Hölzer auffädeln und an einem größerem Holz befestigen. Wir es richtig maritim haben möchte hängt ein schönes Meeresbild in den Hintergrund. Viel Spaß beim selber machen.
@@ -196,11 +197,14 @@
         Wer schnell fertig werden möchte, kann hier im Shop stöbern oder sich ein Windspiel nach den eigenen Wünschen von mir anfertigen lassen.
       </p> -->
     </div>
+    <div class="col-sm-6">
+      <img id="deko-picture" src="<%= asset_url('deko-sommer.jpg') %>" class="img-responsive" alt="Deko Idee für den Sommer">
+    </div>
   </div>
 </div>
 
 <div class="contact">
-  <h2 class="title-font">Kontaktformular</h2>
+  <h2 class="title">Kontaktformular</h2>
   <hr>
   <div class="row">
 
@@ -231,6 +235,16 @@
       </div>
 
     </div>
+
+    <div id="info" class="col-sm-6">
+      <div class="info-box">
+        <a href="http://www.sterne-ueberall.de/firmenkunden/" target="_blank"><img src="<%= asset_url('icon-b2b.png') %>" class="img-responsive" alt="B2B"></a><p>Firmenkunden</p>
+      </div>
+      <div class="info-box">
+        <a href="http://www.sterne-ueberall.de/sterne-%C3%BCberall/m%C3%A4rkte/" target="_blank"><img src="<%= asset_url('icon-cal.png') %>" class="img-responsive" alt="B2B"></a><p>Messen & Märkte</p>
+      </div>
+    </div>
+
 
   </div>
 </div>
