@@ -11,16 +11,14 @@ html {
   /*background: asset-data-url("bg/flowertrail.png");*/
   /*background: asset-data-url("bg/subtle_white_mini_waves.png");*/
   /*background: asset-data-url("bg/upfeathers.png");*/
-  width: 100%;
 }
 
 body {
   /*background-color: #B8E7F7;*/
   /*max-width: 960px;*/
   /*max-width: 1000px;*/
-  /*max-width: 1200px;*/
+  max-width: 1400px;
   margin: 0 auto;
-    width: 100%;
 }
 
 .title {
@@ -162,13 +160,14 @@ ul li {
 .intro {
   /*margin: 0 15px;*/
   /*padding: 25px 0;*/
-  min-height: 350px;
+  height: 400px;
+  /*min-height: 350px;*/
 }
 
 #my-carousel {
   /*max-width: 600px;*/
   /*width: 930px;*/
-  /*height: 400px;*/
+  height: 400px;
 }
 
 #intro-text {
