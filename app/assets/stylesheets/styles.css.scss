@@ -355,6 +355,10 @@ ul li {
   max-width: 1200px;
 }
 
+#footerbar .navbar-text {
+  /*background-color: lightgreen;*/
+}
+
 footer a {
   margin: 5px;
 }
@@ -468,8 +472,21 @@ footer a {
     margin-left: 30px;
   }
 
-  #footerbar p {
-    /*text-align: center;*/
+  #footerbar {
+    /*padding: 0;*/
+    /*background-color: lightblue;*/
+  }
+
+  #footerbar .navbar-text {
+    margin-top: 5px;
+    width: 200px;
+  }
+
+  #footerbar #online-shop, #impressum {
+    /*width: 50px;*/
+    margin: 0;
+    padding: 0;
+    /*background-color: lightyellow;*/
   }
 
   .footer-br {
