@@ -158,10 +158,7 @@ ul li {
 /* >>>>>   START intro area   */
 
 .intro {
-  /*margin: 0 15px;*/
-  /*padding: 25px 0;*/
-  height: 400px;
-  /*min-height: 350px;*/
+  /*height: 400px;*/
 }
 
 #my-carousel {
@@ -432,6 +429,10 @@ footer a {
   }
 
   .fb-like {
+    margin-top: 10px;
+  }
+
+  #fb-button-count {
     margin-top: 10px;
   }
 
