@@ -38,7 +38,8 @@ body {
   z-index: 1;
 }
 
-#stern-mini-1, #stern-mini-2 {
+#stern-mini-1,
+#stern-mini-2 {
   width: 27px;
   height: 25px;
   margin: -8px 5px 0;
@@ -121,7 +122,9 @@ body {
   text-align: right;
 }
 
-.social img:hover, #note img:hover  {
+.social img:hover,
+#note img:hover,
+.info-box img:hover {
   opacity: 0.7;
 }
 
@@ -218,29 +221,76 @@ ul li {
 
 /* >>>>>   START products area   */
 
-.products {
+#product1, #product2, #product3, #product4 {
   position: relative;
-  /*background: asset-data-url("tileable_wood_texture.png");*/
+ /* max-width: 250px;
+  max-height: 250px;*/
+  /*padding: 5px;*/
+  /*margin-left: 20px;*/
+  /*margin-right: 5px;*/
+}
+
+#product1 img.top,
+#product2 img.top,
+#product3 img.top,
+#product4 img.top {
+  position:absolute;
+  top: 0px;
+  left: 0px;
+  -webkit-transition: opacity .5s ease-in-out;
+  -moz-transition: opacity .5s ease-in-out;
+  -o-transition: opacity .5s ease-in-out;
+  transition: opacity .5s ease-in-out;
+  display: inline;
+}
+
+#product1 img.bottom,
+#product2 img.bottom,
+#product3 img.bottom,
+#product4 img.bottom {
+  position:absolute;
+  top: 0px;
+  left: 0px;
+  -webkit-transition: opacity .5s ease-in-out;
+  -moz-transition: opacity .5s ease-in-out;
+  -o-transition: opacity .5s ease-in-out;
+  transition: opacity .5s ease-in-out;
+}
+
+#product1 img.top:hover,
+#product2 img.top:hover,
+#product3 img.top:hover,
+#product4 img.top:hover {
+  opacity:0;
+}
+
+.products {
+  /*position: relative;*/
   margin: 25px 0;
   /*padding: 25px 0;*/
+ /*background-color: blue;*/
+ height: 400px;
 }
 
 .products .row {
+  /*height: 100%;*/
   margin: 0;
   padding: 0;
   position: relative;
+  /*background-color: yellow;*/
 }
 
-/*.products .row div {
-  width: 46%;
-  margin: 2%;
+.products .row div {
+  width: 21%;
+  height: 21%;
+  margin: 1% 2%;
   padding: 0;
 }
 
 .products .img-responsive {
-  width: 100%;
+  /*width: 100%;*/
   padding: 0;
-}*/
+}
 
 .products h2 img:nth-child(1), .products h2 img:nth-child(2) {
   margin-top: -8px;
@@ -248,9 +298,9 @@ ul li {
   display: inline;
 }
 
-.products img:nth-child(even) {
+/*.products img:nth-child(even) {
   display: none;
-}
+}*/
 
 /*.image:hover {
   -webkit-animation:spin .5s linear;
@@ -472,6 +522,14 @@ footer a {
     margin: 10% 5% 0;
   }
   */
+
+  .products img:nth-child(odd) {
+    opacity: 0.2;
+  }
+
+  .products img:nth-child(even) {
+    display: inline;
+  }
 
   .person h1 {
     font-size: 2em;
