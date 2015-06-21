@@ -48,14 +48,11 @@
       </div> <!-- END my-carousel -->
     </div> <!-- END col-sm-8 -->
 
-    <div id="fb-button-count" class="hide-desktop">
-      <div class="fb-like" data-href="http://www.sterne-ueberall.de" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
-    </div>
-
     <div id="intro-text" class="textbox col-sm-3">
       <img id="stern1" class="stern" src="<%= asset_url('stern.png') %>" alt="Stern">
       <h3 class="title">Handgemacht mit <img src="<%= asset_url('heart292.png') %>" alt="Herz"></h3>
-      <h4>aus dem Shop oder nach Deinem Wunsch</h4>
+      <h4>aus dem Shop oder nach Deinem Wunsch.</h4>
+      <p>Nächster Termin:</p>
       <div id="note">
         <a href="http://www.kreativzeit-bremen.de/kreativzeit" target="_blank"><img src="<%= asset_url('note-img.png') %>" class="img-responsive" alt="Notiz"></a>
         <p>Wir sind dabei!</p>
@@ -66,6 +63,9 @@
       <p>
         Quot fugit in duo. Ius idque integre expetenda ne, sanctus disputationi ut eum, pro cu inani consul. Mea dolore legimus iudicabit eu. Vix et atqui elitr meliore, sensibus rationibus cu vim.
       </p> -->
+      <div id="fb-button-count">
+        <div class="fb-like" data-href="http://www.sterne-ueberall.de" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div>
+      </div>
     </div> <!-- END col-sm-3 -->
   </div> <!-- END row -->
 </div> <!-- END intro -->
@@ -74,7 +74,7 @@
 
 <div class="products">
   <hr>
-  <h2 class="title">Willkommen im Online-Shop von <img src="<%= asset_url('stern-klein.png') %>" class="img-responsive star" alt="roter Stern"> Sterne überall <img src="<%= asset_url('stern-klein.png') %>" class="img-responsive star" alt="roter Stern"></h2>
+  <h2 class="title">Willkommen im Online-Shop von <br class="hide-desktop" /><img src="<%= asset_url('stern-klein.png') %>" id="stern-mini-1" alt="roter Stern"> Sterne überall <img src="<%= asset_url('stern-klein.png') %>" id="stern-mini-2" alt="roter Stern"></h2>
   <hr>
   <div class="row">
     <a href="http://www.sterne-ueberall.de/sonnen/" target="_blank">
@@ -128,6 +128,8 @@
     </div>
   </div>
 </div> -->
+
+<div class="clearfix"></div>
 
 <div class="person">
   <hr>
@@ -212,6 +214,8 @@
   </div>
 </div>
 
+<div class="clearfix"></div>
+
 <div class="contact">
   <img id="stern5" class="stern" src="<%= asset_url('stern.png') %>" alt="Stern">
   <img id="stern-klein-3" class="stern" src="<%= asset_url('stern-klein.png') %>" alt="Stern">
@@ -251,6 +255,8 @@
       </div>
 
     </div>
+
+    <hr class="hide-desktop">
 
     <div id="info" class="col-sm-6">
       <div class="info-box">
